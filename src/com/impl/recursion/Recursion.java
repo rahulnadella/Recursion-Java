@@ -154,7 +154,7 @@ public class Recursion {
 	if (p <= 0) {
 	    return months;
 	} else {
-	    System.out.println("Month" + months + ":" + (int) p);
+	    System.out.println("Month " + months + ": " + (int) p);
 	    return loanLengthHelper((p - mp) + (p * i), i, mp, months + 1);
 	}
     }
