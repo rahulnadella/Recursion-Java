@@ -2,9 +2,9 @@ package com.impl.recursion;
 
 /**
  * The {@code Recursion} provides several examples using recursion to solve a
- * set of problems (Factorial, SumDownBy2, Harmonic Sum, Geometric Sum,
+ * set of problems (Factorial, Fibonacci, SumDownBy2, Harmonic Sum, Geometric Sum,
  * Multiply, Exponential, Greatest Common Divisor, Least Common Divisior, Loan
- * Length)
+ * Length, Reversing a String, Prime Number, and Tower of Hanoi)
  * 
  * @author rahulnadella
  */
