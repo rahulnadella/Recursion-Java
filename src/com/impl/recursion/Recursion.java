@@ -561,7 +561,7 @@ public class Recursion {
      * strDist("cccatcowcatxx", "cat") → 9
      * </pre>
      */
-    public int strDist(String str, String sub) {
+    public static int strDist(String str, String sub) {
 	if (str.indexOf(sub) == -1) {
 	    return 0;
 	} else if (str.substring(0, sub.length()).equals(sub)
