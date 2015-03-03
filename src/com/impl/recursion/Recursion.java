@@ -732,15 +732,15 @@ public class Recursion {
      * i.e. a disk can only be moved if it is the uppermost disk on a stack. No
      * disk may be placed on top of a smaller disk.
      */
-    public static void hanoi(int n, String start, String auxillary, String end) {
+    public static void towerOfHanoi(int n, String start, String auxillary, String end) {
 	if (n == 1) {
 	    System.out.println("Current Disk " + n + ": " + start + " -> "
 		    + end);
 	} else {
-	    hanoi(n - 1, start, end, auxillary);
+	    towerOfHanoi(n - 1, start, end, auxillary);
 	    System.out.println("Current Disk " + n + ": " + start + " -> "
 		    + end);
-	    hanoi(n - 1, auxillary, start, end);
+	    towerOfHanoi(n - 1, auxillary, start, end);
 	}
     }
 }

@@ -25,6 +25,8 @@ public class RecursionTest {
 
     /**
      * Test to determine whether the factorial method returns the correct sum
+     * 
+     * {@link com.impl.recursion.Recursion#factorial(int)}
      */
     @Test
     public void testFactorial() {
@@ -34,6 +36,8 @@ public class RecursionTest {
 
     /**
      * Test to determine whether the bunnyEars method returns the correct sum
+     * 
+     * {@link com.impl.recursion.Recursion#bunnyEars(int)}
      */
     @Test
     public void testBunnyEars() {
@@ -44,6 +48,8 @@ public class RecursionTest {
 
     /**
      * Test to determine whether the bunnyEars2 method returns the correct sum
+     * 
+     * {@link com.impl.recursion.Recursion#bunnyEars2(int)}
      */
     @Test
     public void testBunnyEars2() {
@@ -54,6 +60,8 @@ public class RecursionTest {
 
     /**
      * Test to determine whether the triangle method returns the correct blocks
+     * 
+     * {@link com.impl.recursion.Recursion#triangle(int)}
      */
     @Test
     public void testTriangle() {
@@ -65,6 +73,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the sumDigits method returns the calculated
      * value
+     * 
+     * {@link com.impl.recursion.Recursion#sumDigits(int)}
      */
     @Test
     public void testSumDigits() {
@@ -76,6 +86,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the count7 method returns the number of 7's in
      * the integer value.
+     * 
+     * {@link com.impl.recursion.Recursion#count7(int)}
      */
     @Test
     public void testCount7() {
@@ -86,6 +98,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the count8 method returns the corresponding
      * number of 8's in integer value
+     * 
+     * {@link com.impl.recursion.Recursion#count8(int)}
      */
     @Test
     public void testCount8() {
@@ -97,6 +111,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the sumDownBy2 recursive method returns the sum
      * of the positive integers of n+(n-2)+(n-4)... (until n-x =< 0)
+     * 
+     * {@link com.impl.recursion.Recursion#sumDownBy2(int)}
      */
     @Test
     public void testSumDownBy2() {
@@ -108,6 +124,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the harmonicSum recursive method returns the
      * sum of the positive integers of 1 + 1/2 + 1/(n-1) .... + 1/n
+     * 
+     * {@link com.impl.recursion.Recursion#harmonicSum(int)}
      */
     @Test
     public void testHarmonicSum() {
@@ -120,6 +138,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the geometricSum recursive method returns the
      * sum of the positive integers of 1 + 1/2 + 1/(n-1) .... + 1/n
+     * 
+     * {@link com.impl.recursion.Recursion#geometricSum(double)}
      */
     @Test
     public void testGeometricSum() {
@@ -129,6 +149,8 @@ public class RecursionTest {
 
     /**
      * Test to determine whether the mult recursive method returns j*k
+     * 
+     * {@link com.impl.recursion.Recursion#mult(int, int)}
      */
     @Test
     public void testMult() {
@@ -139,6 +161,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the recursive method returns the value of n to
      * k
+     * 
+     * {@link com.impl.recursion.Recursion#expt(int, int)}
      */
     @Test
     public void testExpt() {
@@ -149,6 +173,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the countX method returns the integer value of
      * X's contained in the String object.
+     * 
+     * {@link com.impl.recursion.Recursion#countX(String)}
      */
     @Test
     public void testCountX() {
@@ -160,6 +186,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the countHi method returns the integer value of
      * Hi's contained in the String object
+     * 
+     * {@link com.impl.recursion.Recursion#countHi(String)}
      */
     @Test
     public void testCountHi() {
@@ -171,6 +199,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the changeXY method returns the String object
      * with any X characters changed to Y characters
+     * 
+     * {@link com.impl.recursion.Recursion#changeXY(String)}
      */
     @Test
     public void testChangeXY() {
@@ -182,6 +212,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the changePi method returns the String object
      * with any Pi characters changed to 3.14
+     * 
+     * {@link com.impl.recursion.Recursion#changePi(String)}
      */
     @Test
     public void testChangePi() {
@@ -193,6 +225,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the noX method returns the String object
      * without an X's characters in it
+     * 
+     * {@link com.impl.recursion.Recursion#noX(String)}
      */
     @Test
     public void testNoX() {
@@ -204,6 +238,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the allStar method returns the String object
      * containing * character in it.
+     * 
+     * {@link com.impl.recursion.Recursion#allStar(String)}
      */
     @Test
     public void testAllStar() {
@@ -216,6 +252,8 @@ public class RecursionTest {
      * Test to determine whether the pairStar method returns the String object
      * containing * character for identical pairs of characters within the
      * String.
+     * 
+     * {@link com.impl.recursion.Recursion#pairStar(String)}
      */
     @Test
     public void testPairStar() {
@@ -227,6 +265,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the endX method returns a String object with
      * any X character moved to the end of the String.
+     * 
+     * {@link com.impl.recursion.Recursion#endX(String)}
      */
     @Test
     public void testEndX() {
@@ -238,6 +278,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the countPairs method returns the Integer value
      * with corresponding pairs within a String object
+     * 
+     * {@link com.impl.recursion.Recursion#countPairs(String)}
      */
     @Test
     public void testCountPairs() {
@@ -249,6 +291,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the countABC method returns the Integer value
      * of the number of ABC character within the String
+     * 
+     * {@link com.impl.recursion.Recursion#countAbc(String)}
      */
     @Test
     public void testCountABC() {
@@ -260,6 +304,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the count11 method returns the Integer value of
      * the number of 11 characters within the String
+     * 
+     * {@link com.impl.recursion.Recursion#count11(String)}
      */
     @Test
     public void testCount11() {
@@ -271,6 +317,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the stringClean method returns the String
      * object of a String without any adjacent characters within it
+     * 
+     * {@link com.impl.recursion.Recursion#stringClean(String)}
      */
     @Test
     public void testStringClean() {
@@ -282,6 +330,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the strCount method returns the Integer value
      * of String containing a specific sequence of characters within it
+     * 
+     * {@link com.impl.recursion.Recursion#strCount(String, String)}
      */
     @Test
     public void testStrCount() {
@@ -292,6 +342,8 @@ public class RecursionTest {
 
     /**
      * Test to determine whether the strCopies method returns the Boolean value
+     * 
+     * {@link com.impl.recursion.Recursion#strCopies(String, String, int)}
      */
     @Test
     public void testStrCopies() {
@@ -302,6 +354,8 @@ public class RecursionTest {
     
     /**
      * Test to determine whether the strDist method returns the Integer value
+     * 
+     * {@link com.impl.recursion.Recursion#strDist(String, String)}
      */
     @Test
     public void testStrDist() {
@@ -313,6 +367,8 @@ public class RecursionTest {
     /**
      * Test to determine whether the recursive method returns the least common
      * multiple of j and k
+     * 
+     * {@link com.impl.recursion.Recursion#lcm(int, int)}
      */
     @Test
     public void testLCM() {
@@ -322,6 +378,8 @@ public class RecursionTest {
 
     /**
      * Test to determine whether loan length calc works
+     * 
+     * {@link com.impl.recursion.Recursion#loanLength(int, double, int)}
      */
     @Test
     public void testLoanLength() {
@@ -331,6 +389,8 @@ public class RecursionTest {
 
     /**
      * Test to determine whether reverseString works
+     * 
+     * {@link com.impl.recursion.Recursion#reverseString(String)}
      */
     @Test
     public void testReverse() {
@@ -339,6 +399,8 @@ public class RecursionTest {
 
     /**
      * Test to print out all prime numbers of 100
+     * 
+     * {@link com.impl.recursion.Recursion#primes(int, int)}
      */
     @Test
     public void testPrime() {
