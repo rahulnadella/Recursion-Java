@@ -11,6 +11,9 @@ Loan Length, Reversing a String, Prime Number, and Tower of Hanoi
 #####Version 
 >Version 1.0 -> Creation of Recursion.java and RecursionTest.java
 
+#####Build
+>Build (Current) -> Java SDK 1.7
+
 License
 --------
 
