@@ -617,7 +617,8 @@ public class Recursion {
     }
 
     /**
-     * Finds months needed to pay off loan p
+     * Finds months needed to pay off loan payment with an interest rate over a
+     * year
      * 
      * @param p
      *            is principal
@@ -631,8 +632,7 @@ public class Recursion {
     }
 
     /**
-     * Recursive method returns the greatest common denominator of integers a
-     * and b
+     * Finds the months needed to pay off loan payment
      * 
      * @param p
      *            is principal
@@ -755,7 +755,8 @@ public class Recursion {
      * i.e. a disk can only be moved if it is the uppermost disk on a stack. No
      * disk may be placed on top of a smaller disk.
      */
-    public static void towerOfHanoi(int n, String start, String auxillary, String end) {
+    public static void towerOfHanoi(int n, String start, String auxillary,
+	    String end) {
 	if (n == 1) {
 	    System.out.println("Current Disk " + n + ": " + start + " -> "
 		    + end);
