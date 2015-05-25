@@ -1,3 +1,5 @@
+[![Build Status][travis-image]][travis-url]
+
 # Recursion
 
 Overview 
