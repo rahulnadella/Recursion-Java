@@ -1,4 +1,4 @@
-[![Build Status][travis-image]][travis-url]
+[![Build Status](https://travis-ci.org/rahulnadella/Recursion.svg)](https://travis-ci.org/rahulnadella/Recursion)
 
 # Recursion
 
