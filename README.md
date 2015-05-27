@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/rahulnadella/Recursion.svg)](https://travis-ci.org/rahulnadella/Recursion)
-
-# Recursion
+# Recursion [![Build Status](https://travis-ci.org/rahulnadella/Recursion.svg)](https://travis-ci.org/rahulnadella/Recursion)
 
 Overview 
 ------------
