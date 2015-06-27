@@ -1,4 +1,4 @@
-# Recursion [![Build Status](https://travis-ci.org/rahulnadella/Recursion.svg)](https://travis-ci.org/rahulnadella/Recursion)
+# Recursion in Java [![Build Status](https://travis-ci.org/rahulnadella/Recursion.svg)](https://travis-ci.org/rahulnadella/Recursion)
 
 Overview 
 ------------
